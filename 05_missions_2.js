@@ -12,7 +12,7 @@ function fatMan (john) {
 }
 
 for (let km = 0; km <= runWay; km++) {
-   if (km === 5) {fatMan(5)}
+   if (km === 5) {console.log(fatMan(5))}
 
    else if (km === 13) {console.log(fatMan(13))}
    else if (km === 22) {console.log(fatMan(22))}
